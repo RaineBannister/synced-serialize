@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "mocha --require ts-node/register test/*.ts"
   },
